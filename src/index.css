@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(34, 32, 32);
   font-family: 'Roboto',sans-serif;
+  height: 100vh;
 }
 
 code {

@@ -1,0 +1,56 @@
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: solid 2px white;
+   
+}
+.hello{
+    color:var(--titles-color);
+}
+.home-container{
+    color: white;
+    margin-top: 70px;
+}
+.name{
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.text-typed{
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color:var(--titles-color);
+}
+.description{
+    margin-top: 20px;
+}
+.cv-button{
+    margin: 20px;
+    color: var(--titles-color) !important;
+    border-color: var(--titles-color) !important;
+    transition: .5s;
+}
+.contact{
+    color: var(--titles-color) !important;
+    border-color: var(--titles-color) !important;
+    transition: .5s;
+}
+.contact-link{
+    text-decoration: none;
+    color: var(--titles-color) !important;
+    padding:10px;
+    transition: .5s;
+}
+.contact-link:hover{
+    background-color:var(--titles-color) !important;
+    border-color: var(--titles-color) !important;
+    color: white !important;
+}
+.cv-button:hover,.contact:hover{
+    
+    background-color:var(--titles-color) !important;
+    border-color: var(--titles-color) !important;
+    color: white !important;
+}
+

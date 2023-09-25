@@ -2,8 +2,8 @@
     background-color: var(--body-color) !important;
 }
 .nav-item {
-    margin-left: 50px;
-    font-size: 20px;
+    margin-left: 40px;
+    font-size: 15px;
     color:white ;
     
     
@@ -19,7 +19,7 @@
     color: var(--titles-color) ;
     padding-bottom:18px;
     font-size:20px;
-    color:white !important;
+    color:var(--titles-color);
     transition: 0.35s;
     text-decoration: none;
     padding-top:18px;
@@ -27,5 +27,5 @@
 }
 .nav-item:hover{
     color:var(--titles-color) ;
-    font-size: 20.6px;
+    font-size: 16px;
 }
