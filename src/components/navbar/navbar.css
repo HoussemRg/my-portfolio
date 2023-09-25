@@ -1,0 +1,31 @@
+.bg-body-tertiary{
+    background-color: var(--body-color) !important;
+}
+.nav-item {
+    margin-left: 50px;
+    font-size: 20px;
+    color:white ;
+    
+    
+    transition: 0.35s;
+    text-decoration: none;
+}
+
+.nav-bar{
+    padding-top:18px;
+    padding-bottom:18px;
+}
+.head{
+    color: var(--titles-color) ;
+    padding-bottom:18px;
+    font-size:20px;
+    color:white !important;
+    transition: 0.35s;
+    text-decoration: none;
+    padding-top:18px;
+    
+}
+.nav-item:hover{
+    color:var(--titles-color) ;
+    font-size: 20.6px;
+}
