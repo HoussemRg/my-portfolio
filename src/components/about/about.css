@@ -1,0 +1,29 @@
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: solid 2px white;
+    margin-bottom: 20px;
+}
+.first-title{
+    color:white;
+    margin-bottom: 20px;
+}
+.me{
+    color:var(--titles-color);
+}
+.second-title{
+    color:white;
+    margin-bottom: 20px;
+}
+.link-button{
+    text-decoration: none;
+    color: var(--titles-color) !important;
+    border-color: var(--titles-color) !important;
+    transition: .5s !important;
+}
+.link-button:hover{
+    background-color:var(--titles-color) !important;
+    border-color: var(--titles-color) !important;
+    color: white !important;
+}

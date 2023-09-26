@@ -31,26 +31,30 @@
     border-color: var(--titles-color) !important;
     transition: .5s;
 }
-.contact{
-    color: var(--titles-color) !important;
-    border-color: var(--titles-color) !important;
-    transition: .5s;
-}
-.contact-link{
+
+.link-button{
     text-decoration: none;
     color: var(--titles-color) !important;
-    padding:10px;
-    transition: .5s;
+    border-color: var(--titles-color) !important;
+    transition: .5s !important;
 }
-.contact-link:hover{
+.link-button:hover{
     background-color:var(--titles-color) !important;
     border-color: var(--titles-color) !important;
     color: white !important;
 }
-.cv-button:hover,.contact:hover{
+.cv-button:hover{
     
     background-color:var(--titles-color) !important;
     border-color: var(--titles-color) !important;
     color: white !important;
+}
+
+.facebook-icon,.linkedin-icon,.github-icon{
+    margin:10px;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
